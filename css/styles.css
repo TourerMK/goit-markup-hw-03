@@ -1,10 +1,22 @@
 :root {
   --font-color: #434455;
   --background-color: #FFFFFF;
+  --first-part-logo: #4d5ae5;
+  --second-part-logo: #2E2F42;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--font-color);
     background-color: var(--background-color);
+}
+
+logo {
+    color: var(--first-part-logo);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
