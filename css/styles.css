@@ -3,7 +3,7 @@
   --background-color: #ffffff;
   --first-part-logo: #4d5ae5;
   --second-part-logo: #2e2f42;
-  --second-part-white: #ffffff;
+  --second-part-white: #f4f4fd;
   --contact: #434455;
   --hero-background: #2e2f42;
   --hero-title: #ffffff;
@@ -13,6 +13,7 @@
   --features-title: #2e2f42;
   --button-hover: #404bbf;
   --main-header: #2e2f42;
+  --light-bg: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -78,7 +79,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0, 04em;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   background: var(--hero-button);
@@ -108,6 +109,12 @@ body {
 .features-text {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+.light-bg {
+  background: var(--light-bg);
+}
+.team-card {
+  background: #ffffff;
 }
 .team-title {
   color: var(--features-title);
