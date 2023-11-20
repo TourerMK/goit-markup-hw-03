@@ -3,7 +3,13 @@
   --background-color: #ffffff;
   --first-part-logo: #4d5ae5;
   --second-part-logo: #2e2f42;
+  --second-part-white: #ffffff;
   --contact: #434455;
+  --hero-background: #2e2f42;
+  --hero-title: #ffffff;
+  --hero-button: #4d5ae5;
+  --footer-background: #2e2f42;
+  --footer-text: #fff;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -22,6 +28,9 @@ body {
 }
 .second-part-logo {
   color: var(--second-part-logo);
+}
+.second-part-white {
+  color: var(--second-part-white);
 }
 .list {
   list-style: none;
@@ -54,4 +63,35 @@ body {
 .contact-item:focus,
 .contact-item:active {
   color: #404bbf;
+}
+.hero-background {
+  background-color: var(--hero-background);
+}
+.hero-title {
+  color: var(--hero-title);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.hero-button {
+  border-radius: 4px;
+  background: var(--hero-button);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button-text {
+  color: var(--hero-title);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em; /* 150% */
+  letter-spacing: 0.64px;
+}
+.footer {
+  background-color: var(--footer-background);
+  color: var(--footer-text);
 }
