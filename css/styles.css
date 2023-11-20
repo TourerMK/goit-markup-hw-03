@@ -3,6 +3,7 @@
   --background-color: #ffffff;
   --first-part-logo: #4d5ae5;
   --second-part-logo: #2e2f42;
+  --contact: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -32,6 +33,25 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
+  color: #404bbf;
+}
 .link {
   text-decoration: none;
+}
+.contact {
+  font-style: normal;
+}
+.contact-item {
+  color: var(--contact);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact-item:hover,
+.contact-item:focus,
+.contact-item:active {
+  color: #404bbf;
 }
