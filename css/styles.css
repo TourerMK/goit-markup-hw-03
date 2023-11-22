@@ -24,18 +24,24 @@ body {
 .second-part-logo {
   color: var(--dark);
 }
-.second-part-white {
+.second-part-logo-footer {
   color: var(--light-mode);
 }
 .list {
   list-style: none;
 }
-.menu-item {
-  color: var(--dark);
+
+.items {
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.menu-item {
+  color: var(--dark);
+  font-weight: 500;
+}
+.contact-item {
+  color: var(--text-color);
 }
 .menu-item:hover,
 .menu-item:focus,
@@ -48,48 +54,38 @@ body {
 .contact {
   font-style: normal;
 }
-.contact-item {
-  color: var(--text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 .contact-item:hover,
 .contact-item:focus,
 .contact-item:active {
   color: var(--pressed-state);
 }
-.hero-background {
+.hero-bg {
   background-color: var(--dark);
 }
 .hero-title {
   color: var(--main-white);
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.hero-button {
-  background: var(--primary-brand);
-  color: var(--main-white);
+
+.btn {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.hero-btn {
+  background: var(--primary-brand);
+  color: var(--main-white);
+}
 .filter-btn {
-  background: var(--light-mode);
   color: var(--primary-brand);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+  background: var(--light-mode);
 }
 .filter-btn:hover,
 .filter-btn:focus,
@@ -98,22 +94,10 @@ body {
   background-color: var(--pressed-state);
 }
 
-.hero-button:hover,
-.hero-button:focus,
-.hero-button:active {
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
   background-color: var(--pressed-state);
-}
-.features-title {
-  color: var(--dark);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.features-text {
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
 }
 .light-bg {
   background: var(--light-mode);
@@ -121,48 +105,34 @@ body {
 .team-card {
   background: var(--main-white);
 }
-.team-title {
-  color: var(--dark);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.team-text {
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-}
 .main-header {
   color: var(--dark);
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.portfolio-title {
+.titles {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.portfolio-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
 .footer {
   background-color: var(--dark);
 }
-.footer-text {
-  color: var(--light-mode);
+.text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.footer-text {
+  color: var(--light-mode);
+}
+.portfolio-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
 }
