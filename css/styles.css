@@ -5,11 +5,13 @@
   --text-color: #434455;
   --main-white: #ffffff;
   --light-mode: #f4f4fd;
+  --aacent: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
   background-color: var(--main-white);
+  margin: 0;
 }
 .logo {
   color: var(--primary-brand);
@@ -82,6 +84,10 @@ body {
 .hero-btn {
   background: var(--primary-brand);
   color: var(--main-white);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 .filter-btn {
   color: var(--primary-brand);
@@ -135,4 +141,34 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: var(--text-color);
+}
+.container {
+  padding-left: 156px;
+  padding-right: 156px;
+}
+.section {
+  padding: 120px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+  border-bottom: 1px solid var(--aacent);
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 76px;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
