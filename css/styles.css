@@ -16,6 +16,11 @@ body {
 img {
   display: block;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .logo {
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
@@ -172,9 +177,4 @@ img {
 
 .main-div {
   display: flex;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
