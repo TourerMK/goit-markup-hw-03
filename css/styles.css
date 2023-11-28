@@ -82,6 +82,10 @@ img {
   margin-bottom: 72px;
   justify-content: center;
 }
+.card-set-images {
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .li-item {
   width: calc((100% - 72px) / 4);
 }
@@ -91,8 +95,17 @@ img {
 .project-cards {
   border: 1px solid var(--aacent);
 }
-.hidden {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .link {
   text-decoration: none;
@@ -136,6 +149,9 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .btn {
   font-size: 16px;
@@ -164,8 +180,8 @@ img {
   background: var(--light-mode);
   padding: 12px 24px;
   margin: auto;
+  border: 1px solid var(--aacent);
   border-radius: 4px;
-  border-style: none;
   cursor: pointer;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
@@ -173,6 +189,7 @@ img {
 .filter-btn:hover,
 .filter-btn:focus,
 .filter-btn:active {
+  border: 1px solid transparent;
   color: var(--main-white);
   background-color: var(--pressed-state);
 }
