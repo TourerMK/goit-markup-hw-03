@@ -7,6 +7,10 @@
   --light-mode: #f4f4fd;
   --aacent: #e7e9fc;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
